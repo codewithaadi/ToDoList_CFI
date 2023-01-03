@@ -19,7 +19,7 @@ const ToDoForm = ()=>{
 
     return(
         <form className="form" onSubmit={onFormSubmit} >
-            <input placeholder="Enter New todo.." classname="input" onChange={onInputChange} value={text}></input>
+            <input placeholder="Enter New todo.." className="input" onChange={onInputChange} value={text}></input>
         </form>
     )
 }
