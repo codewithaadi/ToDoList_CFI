@@ -10,7 +10,7 @@ const ToDoForm = ()=>{
     const onFormSubmit = (e)=>{
         e.preventDefault();
         dispatch(addNewTodo(text));
-        setText('');
+        setText("");
     }
 
     const onInputChange = (e)=>{
@@ -18,8 +18,8 @@ const ToDoForm = ()=>{
     }
 
     return(
-        <form className="form" onSubmit={onFormSubmit} onChange={onInputChange}>
-            <input placeholder="Enter New todo.."></input>
+        <form className="form" onSubmit={onFormSubmit} >
+            <input placeholder="Enter New todo.." classname="input" onChange={onInputChange} value={text}></input>
         </form>
     )
 }

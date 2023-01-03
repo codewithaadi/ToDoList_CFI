@@ -9,8 +9,8 @@ export const addTodo = async(req,res)=>{
     })
 
     await newTodo.save();
-    response.status(200).json(newTodo);
+    res.status(200).json(newTodo);
     }catch(error){
-        return response.status(500).json(error.message);
+        return res.status(500).json(error.message);
     }
 }
