@@ -1,10 +1,12 @@
 import {createStore,combineReducers, applyMiddleware} from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
-import { todosReducers } from './reducers/todosReducer';
+import { todosReducers} from './reducers/todosReducer';
+import { tabReducer } from './reducers/tabReducer';
 
 const reducer = combineReducers({
-    todos: todosReducers
+    todos: todosReducers,
+    currentTab : tabReducer
 })
 
 const middleware = [thunk];
