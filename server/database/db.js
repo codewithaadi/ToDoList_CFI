@@ -1,17 +1,19 @@
 import mongoose from "mongoose";
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 
-dotenv.config();
+// dotenv.config();
 
-const USERNAME = process.env.DB_USERNAME;
-const PASSWORD = process.env.DB_PASSWORD;
+// const USERNAME = process.env.DB_USERNAME;
+// const PASSWORD = process.env.DB_PASSWORD;
 
 
 export const Connection  = ()=>{
  
 
     mongoose.set('strictQuery', false);
-    const MONGODB_URL = `mongodb+srv://${USERNAME}:${PASSWORD}@mern-todo.jlncukk.mongodb.net/?retryWrites=true&w=majority`
+    // const MONGODB_URL = `mongodb+srv://${USERNAME}:${PASSWORD}@mern-todo.jlncukk.mongodb.net/?retryWrites=true&w=majority`
+
+    const MONGODB_URL = `mongodb+srv://user:user123@mern-todo.jlncukk.mongodb.net/?retryWrites=true&w=majority`
 
     mongoose.connect(MONGODB_URL, {useNewUrlParser : true});
 
