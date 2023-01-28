@@ -7,6 +7,6 @@ A Todo List app built using React,Redux, NodeJS, MongoDB and ExpressJS.
 https://tame-clam-pullover.cyclic.app/
 
 ## Screenshots
-![](images/s1.jpg)
-![](images/s2.jpg)
-![](images/s3.jpg)
+![](images/s1.png)
+![](images/s2.png)
+![](images/s3.png)
