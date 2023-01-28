@@ -1,21 +1,12 @@
 
-# Blog_MERN_Stack_App
+# ToDo List App
 
-A blogging platform built using React , NodeJS, MongoDB and ExpressJS.
+A Todo List app built using React,Redux, NodeJS, MongoDB and ExpressJS.
 
 # Link for the website:
-https://blog-app-fpp4.onrender.com
-
-
-# Credentials for login :
-
-Username: test@1234  
-Password: 1234
-
-
-
+https://tame-clam-pullover.cyclic.app/
 
 ## Screenshots
-
-
-
+![](images/s1.jpg)
+![](images/s2.jpg)
+![](images/s3.jpg)
